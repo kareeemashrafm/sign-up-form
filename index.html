@@ -5,9 +5,56 @@
 
 <title>Document</title>
 <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
 
 <body>
-  
+  <div class="display">
+    
+  </div>
+  <div class="form">
+    <div class="head"><p class="header">Welcome to Trip Booker</p>
+    <p class="subtext"> Ready to explore the world? Create your free account and gain access to exclusive travel deals, personalized trip planning, and seamless booking — all in one place. Whether you're chasing adventure or relaxation, your journey starts here.</p></div>
+    <div class="details">
+    <form action="">
+      <h1 class="form-head">Let's do this!</h1>
+      <div class="formgroup">
+      <div class="formcol">
+
+      <label for="fname">First Name (optional)</label>
+      <input id="fname" name="fname" type="text"  maxlength="20">
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required >
+      
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password"  maxlength="20" required >
+
+      </div>
+      <div class="formcol">
+      <label for="lname">Last Name</label>
+      <input id="fname" name="fname" type="text"  maxlength="20" required > 
+
+
+      <label for="phone">Phone Number</label>
+      <input id="phone" name="phone" type="text"  maxlength="12" required >
+
+
+      <label for="cpassword">Confirm Password</label>
+      <input id="cpassword" name="cpassword" type="password"  maxlength="20" required >
+      </div>
+
+    </div>
+    </form>
+    </div>
+    <div class="actions">
+      <button class="create-account">Create Account</button>
+      <p class="account">Already have an account? <a class="login">Log in</a> </p>
+    </div>
+  </div>
+
+
+
   <script src="scripts.js"></script>
 </body>
 </html>

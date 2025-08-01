@@ -1,0 +1,142 @@
+
+*{
+  font-family: 'Baloo 2';
+}
+
+body{
+
+  display: flex;
+  height: 99vh;
+
+
+}
+.display{
+  width: 35%;
+  height: 100%;
+  background:url(ocean.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+
+
+
+.form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  background-color: rgba(169, 169, 169, 0.135);
+  align-items:flex-start;
+  justify-content:flex-end;
+  gap:0;
+
+}
+.header{
+  margin-bottom: 0;
+  margin-left: 40px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+.subtext{
+  margin-top: 0;
+  margin-left: 40px;
+  margin-bottom: 60px;
+  width: 70%;
+  font-size: 20px;
+}
+.details{
+
+  height: 30%;
+
+}
+
+.form-head{
+  
+  margin-left: 40px;
+
+}
+.formgroup{
+  width: 100%;
+  display: flex;
+  margin-left: 40px;
+  gap: 100px;
+}
+
+.formcol{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+label{
+
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing:0.02cm;
+}
+
+input{
+  margin-bottom: 20px;
+  padding-right: 80px;
+  padding-top: 5px ;
+  padding-bottom: 5px ;
+  border-radius: 5px;
+  outline: none;
+  
+}
+
+
+
+input:valid:not(:focus){
+  border: 2px solid;
+border-color: rgba(44, 181, 6, 0.642);
+}
+
+input:invalid:not(:focus){
+  border: 2px solid;
+border-color: rgba(235, 12, 12, 0.582);
+}
+
+input:focus{
+border: 3px solid;
+border-color: rgba(11, 48, 230, 0.45);
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.103);
+}
+
+.actions{
+  height: 30%;
+   background-color: rgba(169, 169, 169, 0.135);
+
+}
+
+.create-account{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.395);
+  margin: 20px 0 20px 30px;
+  background-color: rgb(9,172,183);
+  color: aliceblue;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.login{
+
+  color: rgb(9,172,183);
+
+}
+
+.account{
+
+  margin-left: 40px;
+
+}
